@@ -122,9 +122,14 @@ Según Link-labs, una plataforma web integrada al Internet of Things (IoT) es el
 
 4.2.2. Azure IoT Hub
 
-Según Microsoft, el servicio lo descirbe como un centro de mensajes central para la comunicación bidireccional entre su aplicación IoT y los dispositivos que administra. IoT Hub admite comunicaciones tanto del dispositivo a la nube como de la nube al dispositivo, además de múltiples patrones de mensajería, como telemetría de dispositivo a nube, carga de archivos desde dispositivos y métodos de solicitud-respuesta para controlar sus dispositivos desde la nube. El monitoreo de IoT Hub lo ayuda a mantener el estado de su solución al rastrear eventos como la creación de dispositivos, fallas de dispositivos y conexiones de dispositivos.
+Según Microsoft, el servicio lo descirbe como un centro de mensajes central para la comunicación bidireccional entre su aplicación IoT y los dispositivos que administra. IoT Hub admite comunicaciones tanto del dispositivo a la nube como de la nube al dispositivo, además de múltiples patrones de mensajería, como telemetría de dispositivo a nube, carga de archivos desde dispositivos y métodos de solicitud-respuesta para controlar sus dispositivos desde la nube. El monitoreo de IoT Hub lo ayuda a mantener el estado de su solución al rastrear eventos como la creación de dispositivos, fallas de dispositivos y conexiones de dispositivos. Azure IoT Hub ofrece un back-end de solución hospedado en la nube para conectarse prácticamente a cualquier dispositivo. 
 
+(Imagen de IoT Hub)
 
+4.2.3. Raspberry Pi Azure IoT Online Simulator
+Un simulador en línea de Raspberry Pi permite a los usuarios escribir código para controlar el hardware emulado. El simulador muestra un gráfico de un Raspberry Pi conectado a un sensor combinado de humedad, temperatura, presión y un LED rojo a través de una placa de prueba , una placa de enchufe que permite que los circuitos se conecten rápidamente. Este simulador está en 'vista previa' y es bastante rudimentario, lo que significa que la imagen incrustada del Pi es estática y el simulador se limita a interactuar con el sensor y el LED.
+
+(Imahen del simulador)
 
 **5. EXPLICACIÓN DEL FUNCIONAMIENTO**
 
@@ -149,3 +154,5 @@ https://culturacion.com/raspberry-pi-que-es-caracteristicas-y-precios/
 https://es.wikipedia.org/wiki/Raspberry_Pi
 
 https://hipertextual.com/archivo/2014/10/internet-cosas/
+
+https://docs.microsoft.com/en-us/azure/iot-hub/about-iot-hub
