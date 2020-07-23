@@ -156,3 +156,5 @@ https://es.wikipedia.org/wiki/Raspberry_Pi
 https://hipertextual.com/archivo/2014/10/internet-cosas/
 
 https://docs.microsoft.com/en-us/azure/iot-hub/about-iot-hub
+
+https://www.techrepublic.com/article/raspberry-pi-simulator-lets-you-start-tinkering-without-even-owning-a-pi/
