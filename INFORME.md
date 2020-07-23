@@ -39,11 +39,11 @@ Caldas-Calle, Jara, Huerta y Gallegos, miembros del club de la IEEE de la Univer
 
 Raspberry Pi es un ordenador constituido en una placa dek tamaño de una libreta de bajo costo desarrollado en el Reino Unido por la Raspberry Pi Foundation, con el objetivo de estimular la enseñanza de informática en las escuelas enfocado en estudiantes, sobretodo en niños. Se puede utilizar como cualquier ordenador y se puede implementar diferentes dispositivos externos como un teclado, un ratón y dispositivos de audio, vendiendose por separado.  
 
-(Imagen de la placa)
+![](https://github.com/deyder73/Simulador-en-l-nea-de-Raspberry-Pi-a-Azure-IoT-Hub./blob/master/img/WhatsApp%20Image%202020-07-23%20at%2009.03.22.jpeg)
 
 La Raspberry Pi fue diseñada para ejecutar programas simples, desde la edición de documentos de texto hasta la implementación de juegos de video de los años 90. Gracias a su arquitectura y a su software libre, se puede controlar otros dispositivos por medio de la microcomputadora, siendo eficiente para aprender domótica. La arquitectura de este producto permite que no solo funcione en nmodo software, sino también controlar dispositivos electrónicos como un conjunto de LEDs, pantalla LCD, sensores de luz y movimiento hasta cámaras y micrófonos.
 
-(Imagen de la placa controlando a un led)
+![](https://github.com/deyder73/Simulador-en-l-nea-de-Raspberry-Pi-a-Azure-IoT-Hub./blob/master/img/WhatsApp%20Image%202020-07-23%20at%2009.03.28.jpeg)
 
 4.1.1. Modelos
 
@@ -56,7 +56,7 @@ Los siguientes modelos desarrollados hasta la actualidad son los siguientes:
 - Raspberry Pi 3 modelo A+: cuenta con 512 MB de RAM (compartidos con la GPU VideoCore IV), un solo puerto USB y sin puerto de conexión de red por cable (RJ-45).
 - Raspberry Pi 4 modelo B: se han cambiado los puertos HDMI de tamaño completo por dos puertos microHDMI. Cuenta con la capacidad de manejar dos pantallas 4K a 60 Hz. Se ha incluido por primera vez USB 3.0, y el puerto Ethernet ya no está limitado a 300 Mbps. Tiene un procesador Broadcom nuevo hasta tres veces más eficiente que el anterior.
 
-(Imagen de los cuatro modelos)
+![](https://github.com/deyder73/Simulador-en-l-nea-de-Raspberry-Pi-a-Azure-IoT-Hub./blob/master/img/WhatsApp%20Image%202020-07-23%20at%2009.03.36.jpeg)
 
 4.1.2. Hardware
 
@@ -73,7 +73,7 @@ Su placa, de forma general, está constituido por los siguientes elementos:
 - Conector de alimentación microUSB
 - Lector de tarjetas SD
 
-(Imagen de los elementos señalados)
+![](https://github.com/deyder73/Simulador-en-l-nea-de-Raspberry-Pi-a-Azure-IoT-Hub./blob/master/img/WhatsApp%20Image%202020-07-23%20at%2009.03.42.jpeg)
 
 Además, se describen los accesorios que se venden por separado. Inclusive, algunos sirven para personalizar las placas.
 - Cámara de vídeo: la dimensión actual del módulo son 25 x 20 x 9 mm. Para poder hacer uso de él, se tiene que activar en el menú raspi-config de Raspbian.108.
@@ -96,7 +96,7 @@ Los sistemas operativos disponibles son:
 
 Para trabajar con un Raspberry Pi se requiere almacenamiento que en este caso específico debe ser una tarjeta de memoria SD o microSD, donde en ella deberá estár una copia del sistema operativo. Conecta tu teclado y ratón en los puertos USB de la Raspberry Pi, además de un cable de alimentación  que suministe como máximo "5[V]" y "3[A]". Una vez que la placa esté conectada a una fuente de alimentación, deberá iniciar sesión, donde usted escribira su nombre de usuario pi y contraseña raspberry. También puede luego cámbielas.
 
-(Pantalla principal del sistema operativom inicio de sesión)
+![](https://github.com/deyder73/Simulador-en-l-nea-de-Raspberry-Pi-a-Azure-IoT-Hub./blob/master/img/WhatsApp%20Image%202020-07-23%20at%2009.03.46.jpeg)
 
 Una vez ingresada a la sesión, se encontrará con una colección de aplicaciones y herramientas, incluso una copia personalizada de Minecraft, para ayudar a empezar, incluyendo LibreOffice, el navegador Chromium y varias utilidades de programación. Adempas se dispone de la herramienta de configuración de la Raspberry Pi Configuration, raspi-config, recomendado para los usuarios recientes. Además se conectar tu Raspberry Pi a tu red local o directamente a Internet por medio de un cable Ethernet o por WiFi
 
@@ -106,7 +106,7 @@ Se describe como un sistema en la cual controla objetos reales por medio de inte
 
 Hasta ahora, no ha existido un gran enfoque pero cada vez va creciendo, donde empresas orientadas al público en general están desarrollando sus implementaciones transformando los dispositivos manuales en automáticos. Adempas, estos objetos se los pueden virtualizar y muchas plataformas se han estado desarrollando para el diselo de sistemas, sobretodo plataformas que operan en la nube.
 
-(Imagen del Internet de las cosas)
+![](https://github.com/deyder73/Simulador-en-l-nea-de-Raspberry-Pi-a-Azure-IoT-Hub./blob/master/img/WhatsApp%20Image%202020-07-23%20at%2009.03.51.jpeg)
 
 4.2.1. Plataformas IoT
 
@@ -124,12 +124,12 @@ Según Link-labs, una plataforma web integrada al Internet of Things (IoT) es el
 
 Según Microsoft, el servicio lo descirbe como un centro de mensajes central para la comunicación bidireccional entre su aplicación IoT y los dispositivos que administra. IoT Hub admite comunicaciones tanto del dispositivo a la nube como de la nube al dispositivo, además de múltiples patrones de mensajería, como telemetría de dispositivo a nube, carga de archivos desde dispositivos y métodos de solicitud-respuesta para controlar sus dispositivos desde la nube. El monitoreo de IoT Hub lo ayuda a mantener el estado de su solución al rastrear eventos como la creación de dispositivos, fallas de dispositivos y conexiones de dispositivos. Azure IoT Hub ofrece un back-end de solución hospedado en la nube para conectarse prácticamente a cualquier dispositivo. 
 
-(Imagen de IoT Hub)
+![](https://github.com/deyder73/Simulador-en-l-nea-de-Raspberry-Pi-a-Azure-IoT-Hub./blob/master/img/WhatsApp%20Image%202020-07-23%20at%2009.03.56.jpeg)
 
 4.2.3. Raspberry Pi Azure IoT Online Simulator
 Un simulador en línea de Raspberry Pi permite a los usuarios escribir código para controlar el hardware emulado. El simulador muestra un gráfico de un Raspberry Pi conectado a un sensor combinado de humedad, temperatura, presión y un LED rojo a través de una placa de prueba , una placa de enchufe que permite que los circuitos se conecten rápidamente. Este simulador está en 'vista previa' y es bastante rudimentario, lo que significa que la imagen incrustada del Pi es estática y el simulador se limita a interactuar con el sensor y el LED.
 
-(Imahen del simulador)
+![](https://github.com/deyder73/Simulador-en-l-nea-de-Raspberry-Pi-a-Azure-IoT-Hub./blob/master/img/WhatsApp%20Image%202020-07-23%20at%2009.04.01.jpeg)
 
 **5. EXPLICACIÓN DEL FUNCIONAMIENTO**
 
