@@ -122,7 +122,7 @@ Según Link-labs, una plataforma web integrada al Internet of Things (IoT) es el
 
 4.2.2. Azure IoT Hub
 
-Es un servicio prestado por la platafoma de servicios en la nube de Microsoft Azure, 
+Según Microsoft, el servicio lo descirbe como un centro de mensajes central para la comunicación bidireccional entre su aplicación IoT y los dispositivos que administra. IoT Hub admite comunicaciones tanto del dispositivo a la nube como de la nube al dispositivo, además de múltiples patrones de mensajería, como telemetría de dispositivo a nube, carga de archivos desde dispositivos y métodos de solicitud-respuesta para controlar sus dispositivos desde la nube. El monitoreo de IoT Hub lo ayuda a mantener el estado de su solución al rastrear eventos como la creación de dispositivos, fallas de dispositivos y conexiones de dispositivos.
 
 
 
